@@ -1,0 +1,11 @@
+#canvas {
+  margin: 50px;
+  position: absolute;
+  background-color:lightgrey
+}
+
+#button {
+  position:absolute;
+  left:30%;
+  top:40%
+}
