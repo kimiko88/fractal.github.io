@@ -46,9 +46,11 @@ function draw1(startX, startY, len, angle) {
 
 
 function tree(){
+	ctx.clearRect(0, 0, canv.width, canv.height);
   draw(350,600,120,0);
 }
 
 function spiral(){
+	ctx.clearRect(0, 0, canv.width, canv.height);
   draw1(350/2,600/2,120*2,0);
 }
